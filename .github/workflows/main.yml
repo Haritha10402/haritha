@@ -23,7 +23,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          role-to-assume:arn:aws:iam::892013433554:role/gitnewrolefordemo# need to update
+          role-to-assume:arn:aws:iam::892013433554:role/gitnewrole# need to update
           audience: sts.amazonaws.com
           aws-region: ${{ env.AWS_REGION }}
       
